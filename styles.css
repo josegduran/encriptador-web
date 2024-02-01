@@ -9,12 +9,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #612E52;
+    background-color: black;
     padding: 10px;
 }
 nav {
     display: flex;
-    background-color: #333;
+    background-color: black;
 }
 nav a {
     color: white;
@@ -29,10 +29,14 @@ nav a:hover {
 main {
     margin-top: 20px;
 }
+.contenedor-general{
+    margin: 20px 200px;
+    text-align: center;
+}
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #612E52;
+    background-color: black;
     position: fixed;
     bottom: 0;
     width: 100%;
