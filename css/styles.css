@@ -3,7 +3,8 @@ body {
     margin: 20px;
 }
 #img_logo{
-    width: 10%;
+    width: 5%;
+    padding: 10px 50px;
 }
 header {
     display: flex;
@@ -35,11 +36,14 @@ main {
 }
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: black;
+    padding: 20px;
+    background: black;
+    color: white;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 92%;
+    padding: 14px 16px;
+    margin: 20px 0px;
 }
 button {
     padding: 10px 20px;
