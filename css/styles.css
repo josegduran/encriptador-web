@@ -1,58 +1,69 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+/* Obteniendo la familia de IM Fell English Regular */
+@font-face {
+    font-family: 'IM Fell English Regular';
+    src: url('/assets/fonts/IMFellEnglish-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
-#img_logo{
-    width: 5%;
-    padding: 10px 50px;
+
+/* Obteniendo la familia de IM Fell English Italic */
+@font-face {
+    font-family: 'IM Fell English Italic';
+    src: url('/assets/fonts/IMFellEnglish-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
 }
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+header{
+    font-family: 'IM Fell English Regular';
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
     background-color: black;
+    color: white;
+}
+
+p{
     padding: 10px;
+    font-family: 'IM Fell English Italic';
 }
-nav {
+
+body{
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     background-color: black;
 }
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 14px 16px;
-    text-align: center;
+
+main{
+    flex: 1;
 }
-nav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-main {
-    margin-top: 20px;
-}
+
 .contenedor-general{
-    margin: 20px 200px;
     text-align: center;
+    margin: auto 30%;
+    background-color: white;
 }
+
+.bienvenida{
+    padding: 30px 0px;
+}
+
+.textarea-informacion{
+    resize: none;
+    padding: 10px;
+    font-family: 'IM Fell English Regular';
+}
+
+form{
+    padding: 30px;
+}
+
 footer {
+    background-color: black;
+    color: white;
     text-align: center;
-    padding: 20px;
-    background: black;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 92%;
-    padding: 14px 16px;
-    margin: 20px 0px;
+    padding: 30px;
 }
-button {
-    padding: 10px 20px;
-    background-color: #612E52;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-button:hover {
-    background-color: #451F37;
-}
+  
+  

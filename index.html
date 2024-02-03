@@ -3,26 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trebuchet - Home</title>
+    <title>&spades; Trebuchet | Encriptador</title>
     <link rel="stylesheet" href="config/reset.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <img src="/assets/img/logo.png" id="img_logo" alt="Logo de la página">
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="/views/encriptador.html">Encriptador</a>
-            <a href="/views/contacto.html">Contacto</a>
-        </nav>
+        <h1>&spades; Trebuchet</h1>
     </header>
     <main>
         <div class="contenedor-general">
-            <p>Página de Inicio</p>
+            <div class="bienvenida">
+                <p>¡Bienvenido a Trebuchet un encriptador web!</p>
+                <p>Por favor ingresa un texto para encriptar o desencriptar.</p>
+            </div>
+
+            <textarea class="textarea-informacion" name="ta_raw_text" id="ta_raw_text" cols="60" rows="10"></textarea>
+
+            <form action="">
+                <button type="submit" id="btn_encriptar">Encriptar</button>
+                <button type="submit" id="btn_desencriptar">Encriptar</button>
+            </form>
         </div>
     </main>
     <footer>
-        <p>&copy; 2024 - Trebuchet - Encriptador </p>
+        <p>&copy; 2024 - Trebuchet - Powered by Ing. José G. Durán</p>
     </footer>
 
     <script src="app.js"></script>
