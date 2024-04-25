@@ -29,10 +29,6 @@ function encriptar() {
 
     // Mostrar el resultado en el text area information
     document.getElementById("inp_RawText").value = outputResult;
-
-    // Debugging
-    console.log("Input: " + inputOriginal);
-    console.log("Output: " + outputResult);
 }
 
 // Función para desencriptar el texto
@@ -65,10 +61,6 @@ function desencriptar() {
     }
 
     document.getElementById("inp_RawText").value = outputResult;
-
-    // Debugging
-    console.log("Input: " + inputEncriptado);
-    console.log("Output: " + outputResult);
 }
 
 // Función para copiar el texto del 'text area information'
