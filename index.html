@@ -15,17 +15,16 @@
         <div class="contenedor-general">
             <div class="bienvenida">
                 <p>¡Bienvenido a Trebuchet un encriptador web!</p>
-                <p>Por favor ingresa un texto para encriptar o desencriptar.</p>
+                <p>Por favor, ingresa un texto para encriptar o desencriptar.</p>
             </div>
 
-            <textarea class="textarea-informacion" name="ta_raw_text" id="ta_raw_text" cols="60" rows="10"></textarea>
+            <textarea class="textarea-informacion" name="inp_RawText" id="inp_RawText" cols="60" rows="10"></textarea>
             
             <form action="">
                 <button type="button" id="btn_encriptar" onclick="encriptar()">Encriptar</button>
-                <button type="submit" id="btn_desencriptar">Desencriptar</button>
+                <button type="button" id="btn_desencriptar" onclick="desencriptar()">Desencriptar</button>
+                <button type="button" id="btn_copiar" onclick="copiarTexto()">Copiar</button>
             </form>
-
-            <textarea class="textarea-resultado" name="ta_result_text" id="ta_result_text" cols="60" rows="10" readonly></textarea>
         </div>
     </main>
     <footer>
